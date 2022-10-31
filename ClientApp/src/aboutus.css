@@ -1,0 +1,71 @@
+﻿
+
+.introContent {
+    font-size: 300%;
+    text-align: left;
+    margin-left:3%;
+}
+
+.photo {
+    width: 100%;
+}
+.left {
+    float: left;
+    height: 100%;
+}
+
+
+/*Logo*/
+.page{
+    height:100vh;
+}
+#introwlogo {
+    font-size: 200%;
+}
+
+#logo {
+    width: 30%;
+}
+
+
+
+.font > span {
+    font-size:150%;
+}
+.cv{
+    display: flex;
+    background-color: #c5d2d8; 
+}
+.cv2 {
+    display: flex;
+    background-color: white;
+}
+
+@media screen and (max-width : 768px)
+{
+    .photo {
+        float: unset;
+        width: 60%;
+    }
+    .cv {
+        display: block;
+    }
+    .cv2 {
+        display: block;
+    }
+    .introContent {
+        font-size: 200%;
+        margin-left: 1%;
+        text-align: unset;
+    }
+    #introwlogo{
+        font-size : 150%;
+    }
+    #logo {
+        width: 60%;
+    }
+    .font {
+        font-size: 55%;
+    }
+}
+

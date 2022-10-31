@@ -1,0 +1,15 @@
+﻿
+
+#leaflet-map {
+    height: 600px;
+}
+
+
+@media screen and (max-width:768px) {
+    #leaflet-map {
+        height: 250px;
+    }
+    #leaflet-map-bounds{
+        font-size : 50%;
+    }
+}

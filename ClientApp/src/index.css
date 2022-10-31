@@ -1,0 +1,280 @@
+.ack {
+  background: #F8F8F8;
+  border: 1px solid #999;
+  font-size: 13px;
+  font-weight: bold;
+  text-align: left;
+  width: 98%;
+  height: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1%  1% 1% 1%;
+  border-radius: 1%;
+}
+.title{
+  margin-bottom: 3%;
+}
+
+button {
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 15px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+}
+input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    width: 80%;
+    background: #f1f1f1;
+}
+
+.contribution{
+  font-size : 18px ;
+  text-align: left;
+}
+
+#decline{
+  background-color : #d10000 ;
+  margin-left: 1%;
+}
+
+#statement{
+  margin-left: 5%;
+}
+
+footer{
+  height:auto;   
+  background:#F8F8F8;
+}
+.footer{
+  position:relative;
+  text-align: center;
+  bottom:0;
+  width:99.5%;
+}
+.tableborder-2{
+  border: solid;
+}
+
+td , th{
+  
+  padding: 8px;
+}
+
+.styled-table {
+    min-width: 400px;
+    background-color: #F8F8F8;
+    color: black;
+    text-align: left;
+    width: 100%;
+    font-size: 1vw;
+}
+
+
+
+
+.container__table::-webkit-scrollbar {
+  display: none;
+}
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 3%; /* Place the button at the bottom of the page */
+    right: 2%; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: transparent; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    border-radius: 100%; /* Rounded corners */
+    width: 3.0%;
+}
+
+    #myBtn:hover {
+        background-color: #555; /* Add a dark-grey background on hover */
+    }
+
+.navl {
+    display: block;
+    background-color: #dddddd;
+    text-decoration: none;
+    color: black;
+    margin: auto;
+    margin-right: 1%;
+    padding: 3% 12% 3%;
+}
+
+#infonav {
+    display: block;
+    background-color: #dddddd;
+    text-decoration: none;
+    color: black;
+    margin: auto;
+    margin-right: 2%;
+}
+
+
+#top5 {
+    display : flex;
+}
+.top5chart{
+    width:90%;
+}
+
+#table1{
+    display : flex;
+}
+#plate {
+    margin-left : 5%;
+}
+.box-shadow-1 {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+@media only screen and (max-width: 600px) {
+    #myBtn {
+        bottom: 2%;
+        width: 10.5%;
+    }
+        #myBtn:hover {
+            background-color: transparent; /* Add a dark-grey background on hover */
+        }
+    #top5 {
+        display: unset;
+    }
+    .top5chart {
+        width: 100%;
+    }
+    #table1 {
+        display: unset;
+    }
+
+    #plate {
+        margin-left: 0;
+        font-size : small;
+    }
+}
+
+#tablesearch {
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+
+.styled-table2 {
+    min-width: 300px;
+    background-color: #F8F8F8;
+    color: black;
+    text-align: left;
+    width: 100%;
+    font-size: 1vw;
+}
+
+@media screen and (max-width:768px) {
+    Nav {
+        width: 100%;
+        margin: 0;
+    }
+
+    Card {
+        width: 100%;
+        float: left;
+        margin: 0;
+    }
+
+    #innertable {
+        width: 100%;
+        float: left;
+        margin: 0;
+    }
+
+    .styled-table {
+        min-width: 400px;
+        background-color: #F8F8F8;
+        color: black;
+        text-align: left;
+        width: 100%;
+        font-size : 2vw;
+    }
+    .styled-table2 {
+        min-width: 300px;
+        background-color: #F8F8F8;
+        color: black;
+        text-align: left;
+        width: 100%;
+        font-size: 3vw;
+    }
+
+    .maindrop{
+        font-size:70%;
+    }
+
+    .navl {
+        display: block;
+        padding: 4% 15% 4%;
+        background-color: #dddddd;
+        text-decoration: none;
+        color: black;
+        margin: auto;
+        margin-right: 1%;
+        float: right;
+        width: 100%;
+    }
+
+    #infonav {
+        float: right;
+        display: block;
+        padding: 4% 15% 4%;
+        width: 100%;
+        background-color: #dddddd;
+        text-decoration: none;
+        color: black;
+        margin: auto;
+    }
+}
+
+
+
+#innertable {
+    max-height: 300px;
+    overflow-y: scroll;
+    overflow-x: auto;
+    border: 1px black solid;
+    display: inline-block;
+    font-size : xx-large;
+}
+
+.floatleft{
+    float : left;
+    width : 40%;
+}
+
+
+#airpl{
+    margin-top : 1%;
+}
+.informationblock{
+    margin:0 5% 0 5%;
+    padding : 2%;
+}
+
+
+.nav-item:hover .dropdown-menu {
+    display: block !important;
+}
+
+#main.dropdown-toggle:after {
+    border: none;
+}
+
+
+
+    
+    
+    
